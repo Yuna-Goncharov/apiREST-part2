@@ -1,6 +1,6 @@
 {
-  "name": "api_restfull_task_yuna_example",
-  "version": "1.0.2",
+  "name": "api_restfull_task_part2_yuna_example",
+  "version": "1.0.3",
   "main": "app.js",
   "author": "yuna goncharov",
   "scripts": {
@@ -26,6 +26,7 @@
     "request": "^2.88.0",
     "should": "^13.2.3",
     "supertest-as-promised": "^4.0.2",
+    "user": "0.0.0",
     "util": "^0.11.0",
     "winston": "^3.0.0"
   },
