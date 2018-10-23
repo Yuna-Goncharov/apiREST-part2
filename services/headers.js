@@ -1,6 +1,6 @@
-
 const mysql = require('mysql');
 const connection = require('../config.js');
+
 
 const getHeader = function (headers){
     if (headers && headers.authorization && headers.password){

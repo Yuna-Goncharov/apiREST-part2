@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ab3df0c6-391d-468d-924c-82f9424d42cd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/headers.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/headers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/userControllerTest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/winstonLogs/logsFromWinston.log" beforeDir="false" afterPath="$PROJECT_DIR$/winstonLogs/logsFromWinston.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,12 +19,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="150">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -32,16 +34,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="dalUserTest.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/dalUserTest.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -55,6 +52,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="dalUserTest.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/dalUserTest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-914" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="10" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="headers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/headers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -63,8 +85,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/services/headers.js" />
+        <option value="$PROJECT_DIR$/config.js" />
       </list>
     </option>
   </component>
@@ -90,6 +114,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,13 +125,17 @@
             <path>
               <item name="apiREST-part2" type="b2602c69:ProjectViewProjectNode" />
               <item name="apiREST-part2" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apiREST-part2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apiREST-part2" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -131,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.Test logs  dal - getUsers">
+  <component name="RunManager" selected="Mocha.Test user authentication  ">
     <configuration name="mocha" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -154,6 +183,19 @@
         <name value="Test logs  dal - getUsers" />
       </test-names>
     </configuration>
+    <configuration name="Test user authentication  " type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/authenticationTest.js</test-file>
+      <test-names>
+        <name value="Test user authentication  " />
+      </test-names>
+    </configuration>
     <configuration name="Test users  dal - getUsers" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -171,9 +213,11 @@
       <item itemvalue="Mocha.Test users  dal - getUsers" />
       <item itemvalue="npm.mocha" />
       <item itemvalue="Mocha.Test logs  dal - getUsers" />
+      <item itemvalue="Mocha.Test user authentication  " />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Mocha.Test user authentication  " />
         <item itemvalue="Mocha.Test logs  dal - getUsers" />
         <item itemvalue="npm.mocha" />
         <item itemvalue="Mocha.Test users  dal - getUsers" />
@@ -190,7 +234,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540284335203</updated>
-      <workItem from="1540284337139" duration="3090000" />
+      <workItem from="1540284337139" duration="3283000" />
+      <workItem from="1540294211987" duration="235000" />
     </task>
     <servers />
   </component>
@@ -198,31 +243,35 @@
     <history-entry file="Test_logs__dal_-_getUsers - 2018.10.23 at 11h 56m 43s.xml">
       <configuration name="Test logs  dal - getUsers" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="Test_user_authentication__ - 2018.10.23 at 14h 35m 01s.xml">
+      <configuration name="Test user authentication  " configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3090000" />
+    <option name="totallyTimeSpent" value="3518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3236" y="-429" width="1927" height="1110" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20356768" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20356768" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info id="npm" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.4165844" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39980257" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4165844" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39980257" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,16 +280,25 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="150">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/authenticationTest.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/dalLogTest.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -249,13 +307,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/dalUserTest.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/dalLogTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/userControllerTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/dalUserTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-914" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/headers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/authenticationTest.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="10" selection-end-column="2" />
         </state>
       </provider>
     </entry>
