@@ -15,7 +15,7 @@ $npm i api_restfull_task_yuna_example
 Discerption:
 1. Created microservice  -support CRD capabilities
 2. Can run on localhost port - 3003(or can be configured )
-3. Saving logs with Winston to local file
+3. Saving logs with Winston to local file for users
 4. Or can run the server with heroku :
 
 Var config to user api calls with postman are:
@@ -38,6 +38,8 @@ Set in body:
     }
 
 4. Delete log - DELETE request - ‘/logs/logId’
+5. In order to insert log or create new user use: in headers authorezetion:"admin" and password:"admin"
+6. To run test can run script : npm run mocha
 
 
 App in heroku :
